@@ -90,3 +90,71 @@ hr{
 .about > p:nth-child(4){
     font-size: 14px;
 }
+/*second section css*/
+.section-bg{
+    background-image: url("../img/backgroung img2.jpg");
+    width: 100%;
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+}
+.section-bg > div:nth-child(1){
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.section2-top-div > h2:nth-child(1){
+    color: #5863F8;
+    font-size: 14px;
+    margin-top: 82px;
+}
+.section2-top-div > p:nth-child(2){
+    max-width: 376px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 42px;
+    margin-top: 34px;
+}
+.section2-bottom-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.information-div{
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    margin-top: 34px;
+}
+.icon-div{
+    background-color: #5863F8;
+    width: 59px;
+    height: 58px;
+    border-radius: 50%;
+    margin-top: 27px;
+}
+.icon-div > img:nth-child(1){
+    margin: 8px 13px 12px 13px;
+}
+.information-div-title{
+    width: 166px;
+    font-size: 18px;
+    margin: 15px auto 20px auto;
+    text-align: center;
+}
+.information-div-text{
+    width: 220px;
+    height: 62px;
+    color: #B1B1B1;
+    font-size: 14px;
+    overflow: hidden;
+    text-indent: 15px;
+}
+
+
