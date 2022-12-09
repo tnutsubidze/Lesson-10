@@ -1,12 +1,13 @@
+/*header css*/
 header{
     background-image: url("../img/background img.jpg");
     width: 100%;
     height: 324px;
+    margin-bottom: 90px;
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
     padding-top: 30px
-
 }
 .header-div{
     max-width: 1088px;
@@ -32,7 +33,7 @@ a{
 a:hover:not(.logo){
     color: #5863F8;
 }
-.about{
+.header-div-bottom > div:nth-child(1){
     font-size: 42px;
     margin-top: 96px;
 }
@@ -47,4 +48,45 @@ hr{
     justify-content: flex-start;
     align-items: center;
     margin-top: 16px;
- }
+}
+/*first section css*/
+.section-div{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.section1-left-div{
+    max-width: 444px;
+    width: 100%;
+}
+.buttom{
+    width: 184px;
+    margin-top: 20px;
+    background-color: #5863F8;
+    text-align: center;
+}
+.section1-right-div > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.about h2{
+    color: #5863F8;
+    font-size: 14px;
+}
+.about h4{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.about > p:nth-child(3){
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.about > p:nth-child(4){
+    font-size: 14px;
+}
