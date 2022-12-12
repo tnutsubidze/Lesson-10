@@ -1,38 +1,20 @@
-@media (max-width: 1050px){
+@media (max-width: 1050px) {
+    .section-bg{
+        background-repeat: repeat;
+        height: 900px;
+    }
+    .card-overlay{
+        height: 900px;
+    }
     .information-div{
-        max-width: 360px;
-        width: 45%;
-        margin: 8px auto 8px auto;
-
+        margin: 10px;
     }
     .section2-bottom-div{
         display: flex;
         flex-wrap: wrap;
     }
-    .information-div-text{
-        width: 320px;
-    }
-    .information-div-title{
-        width: 200px;
-    }
-    .section2-top-div{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 5px;
-    }
-    .section2-top-div > p:nth-child(2){
-       margin-right: 200px;
-        margin-top: 10px;
-    }
-    .section2-top-div > p:nth-child(1){
-        margin-top: 41px;
-    }
-    .section-div{
-        margin-left: 5px;
-    }
 }
-@media (max-width: 1010px) {
+@media (max-width: 980px) {
     .section1-right-div >div:nth-child(2){
         display: none;
     }
@@ -42,10 +24,59 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
     }
     .images{
         margin-bottom: 10px;
     }
-
+    .section1-left-div{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .ul-div{
+        display: none;
+    }
+    .icon{
+        display: block;
+        color: #ffffff;
+    }
+    .nav-div{
+        width: 40px;
+    }
+}
+@media (max-width: 559px) {
+    .section-div{
+        flex-direction: column;
+    }
+    .section1-right-div{
+        margin-top: 15px;
+    }
+    .section1-left-div{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-bg{
+        background-repeat: repeat;
+        height: 1360px;
+    }
+    .card-overlay{
+        height: 1360px;
+    }
+    .section2-bottom-div{
+        justify-content: center;
+    }
+    .section2-top-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .section2-top-div > h2:nth-child(1){
+        margin-top: 20px;
+    }
+    .section2-top-div > p:nth-child(2){
+        margin-top: 10px;
+    }
 }
