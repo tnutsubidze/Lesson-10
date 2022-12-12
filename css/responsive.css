@@ -6,13 +6,19 @@
     .card-overlay{
         height: 900px;
     }
-    .information-div{
-        margin: 10px;
+    .section2-top-div{
+        margin-left: 20px;
     }
     .section2-bottom-div{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
+    .information-div{
+        margin: 10px;
+        width: 49%;
+    }
+
 }
 @media (max-width: 980px) {
     .section1-right-div >div:nth-child(2){
@@ -42,6 +48,9 @@
     }
     .nav-div{
         width: 40px;
+    }
+    .section2-bottom-div{
+        width: 100%;
     }
 }
 @media (max-width: 559px) {
