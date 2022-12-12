@@ -7,12 +7,17 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    padding-top: 30px
+}
+.card-overlay-header{
+    background: rgba(0, 0, 0, 60%);
+    width: 100%;
+    height: 100%;
 }
 .header-div{
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 30px;
 }
 .header-div-top{
     max-width: 1088px;
@@ -39,7 +44,19 @@ a{
 a:hover:not(.logo){
     color: #5863F8;
 }
-
+.fa-solid{
+    color: #ffffff;
+}
+.fa-chevron-down{
+    margin-left: 5px;
+}
+.fa-chevron-down:hover{
+    color: #5863F8;
+}
+li:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
 .header-div-bottom > div:nth-child(1){
     font-size: 42px;
     margin-top: 96px;
@@ -79,12 +96,23 @@ hr{
     margin-top: 20px;
     background-color: #5863F8;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .buttom p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fa-arrow-right{
+    padding-left: 5px;
+    padding-top: 15px;
 }
 .section1-right-div > div:nth-child(1){
+    max-width: 536px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -122,7 +150,12 @@ hr{
     background-size: cover;
     margin-top: 90px;
 }
-.section-bg > div:nth-child(1){
+.card-overlay {
+    background: rgba(0, 0, 0, 40%);
+    width: 100%;
+    height: 612px;
+}
+.card-overlay > div:nth-child(1){
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;
@@ -151,7 +184,8 @@ hr{
     justify-content: space-between;
 }
 .information-div{
-    width: 260px;
+    max-width: 260px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
